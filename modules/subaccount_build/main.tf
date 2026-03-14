@@ -24,6 +24,6 @@ resource "btp_subaccount" "subaccount" {
   region    = var.subaccount_region
   parent_id = var.parent_id
   labels = {
-    "staqe" = ["${var.stage}"]
+    "stage" = ["${var.stage}"]
   }
 }
