@@ -18,3 +18,8 @@ variable "subaccount_region" {
   type        = string
   default     = "eu10"
 }
+
+variable "parent_id" {
+  description = "Parent ID for the subaccount."
+  type        = string
+}
